@@ -5,10 +5,10 @@ import os
 
 # --- 配置参数 ---
 NUM_LEDS = 4
-ROI_SIZE = 20  # <--- Example: Changed to 20 for a smaller box
-BRIGHTNESS_THRESHOLD = 150
+ROI_SIZE = 30  # <--- Example: Changed to 20 for a smaller box
+BRIGHTNESS_THRESHOLD = 120
 OUTPUT_SUBDIR = "data"
-CAMERA_INDEX = 0
+CAMERA_INDEX = 1
 font = cv2.FONT_HERSHEY_SIMPLEX # Moved font definition here as it's used in select_roi_callback too
 
 # --- 全局变量 ---

@@ -11,7 +11,7 @@ from scipy import stats as scipy_stats # 用于计算偏度和峰度
 
 # --- 配置 ---
 DATA_DIR = "video_data"  # 存放TRNG数据文件的文件夹名
-ANALYSIS_OUTPUT_DIR = "video_data_analysis"  # 存放分析结果图表的文件夹名
+ANALYSIS_OUTPUT_DIR = "graphs"  # 存放分析结果图表的文件夹名
 DEFAULT_HIST_BINS = 50  # 直方图默认的柱子(bins)数量
 BITMAP_IMAGE_SIZE = 128 # 生成位图图像的边长 (例如 128x128 像素)
 
